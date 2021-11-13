@@ -1,6 +1,6 @@
 .container{ 
     max-width: 960px;
-    margin: 0 auto;
+    margin: 0px auto;
     font-family: verdana;
     text-align: center;
     display: grid;
@@ -13,21 +13,26 @@
 }
 header{
     background-color: antiquewhite;
+    margin: 0px 10px 10px 10px;
     grid-area: h;
 }
 main{
     background-color: aqua;
+    margin: 0px 10px 10px 10px;
     grid-area: m;
 }
 aside{
     background-color: blue;
+    margin: 10px;
     grid-area: a;
 }
 nav{
     background-color: coral;
+    margin: 10px;
     grid-area: n;
 }
 footer{
     background-color: cornflowerblue;
+    margin: 10px;
     grid-area: f;
 }
