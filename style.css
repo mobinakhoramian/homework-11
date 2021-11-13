@@ -1,0 +1,33 @@
+.container{ 
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: verdana;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(200px,auto));
+    grid-template-areas: 
+                        "h m m"
+                        "h a n"
+                        "f f n";
+}
+header{
+    background-color: antiquewhite;
+    grid-area: h;
+}
+main{
+    background-color: aqua;
+    grid-area: m;
+}
+aside{
+    background-color: blue;
+    grid-area: a;
+}
+nav{
+    background-color: coral;
+    grid-area: n;
+}
+footer{
+    background-color: cornflowerblue;
+    grid-area: f;
+}
